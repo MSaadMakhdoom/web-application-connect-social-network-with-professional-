@@ -1,0 +1,242 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px;
+}
+
+/* Default Elements */
+button {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+label {
+    width: 30%;
+    margin-left: 5%;
+}
+
+/* get Text input tage */
+input[type=text],
+input[type=email],
+input[type=password] {
+    padding: 5px;
+}
+
+/* Landing Page Styling */
+#landing-page {
+    display: flex
+}
+
+.left-side {
+    background-color: snow;
+    display: inline-block;
+    margin: 0px;
+    padding: 30px;
+    width: 40%;
+    height: 100vh
+}
+
+.right-side {
+    background-color: skyblue;
+    display: inline-block;
+    margin: 0px;
+    padding: 30px;
+    width: 60%;
+    height: 100vh;
+}
+
+/* Register Page */
+.form-div {
+    margin: 10vh auto;
+    width: 50%;
+    padding: 5% 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Personal Profile Section */
+.personalInfo {
+    padding: 1% 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personalInfo div {
+    padding: 1% 1%;
+    border: 2px solid black;
+}
+
+.personalInfo .left-div {
+    overflow-y: scroll;
+    height: 50vh;
+    width: 30%;
+}
+
+.personalInfo .right-div {
+    text-align: left;
+    width: 60%;
+}
+
+.personalInfo .right-div .heading {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.personalInfo .right-div .stars-div {
+    width: 100%;
+    display: flex;
+    border: 0px;
+}
+
+.personalInfo .right-div .heading .stars-div h5 {
+    display: inline;
+}
+
+/* Extra Info */
+.extra-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.extra-info div {
+    border: 0px;
+    width: 40%;
+}
+
+.newHobby {
+    height: 25%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    padding: 3%;
+    margin: 1% 0%;
+    border-radius: 4px;
+}
+
+.newHobby input {
+    width: 70%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.newHobby button {
+    margin: 0%;
+}
+
+/* Media Section */
+.media-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0px;
+}
+
+/* Posts Styling */
+.media-section .posts-list {
+    width: 60%;
+    border: 2px solid black;
+    padding: 2% 3%;
+}
+
+.media-section .followers {
+    width: 35%;
+    border: 2px solid black;
+
+}
+
+.folPost-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#post-section {
+    width: 60%;
+    margin: 2.5%;
+    padding: 2%;
+    text-align: center;
+}
+
+.post-grid {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 2%;
+    padding: 2%;
+}
+
+
+.newPost {
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 2% 0%;
+}
+
+.newPost textarea {
+    width: 70%;
+    height: 100px;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+.newPost button {
+    width: 100%
+}
+
+.post {
+    border: 2px solid black;
+    padding: 1% 3%;
+}
+
+/* FollowersList */
+#veterans-section {
+    background-color: aquamarine;
+    overflow-y: scroll;
+    width: 25%;
+    padding: 2%;
+    margin: 2% 0%;
+}
+
+.veterans-list {
+    padding: 2%;
+
+}
+
+.veteran-div {
+    border: 2px solid black;
+    padding: 3% 10%;
+    margin: 15px 0px;
+}
+
+.veteran-div h5 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.veteran-div p {}
+
+.veteran-div button {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0%;
+}
+
+#view-profile {
+    border: 2px solid black;
+    margin: 5% 10%;
+    padding: 1% 2%;
+}
